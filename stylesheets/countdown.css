@@ -1,0 +1,25 @@
+#countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#timer {
+  font-size: 19em;
+  font-weight: 500;
+  color: white;
+  font-family: 'Bangers', cursive;
+}
+
+@media screen and (max-width: 600px) {
+  #timer {
+    font-size: 15em;
+  }
+}
+  
+@media screen and (max-width: 475px) {
+  #timer {
+    font-size: 10em;
+  }
+}

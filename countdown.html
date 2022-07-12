@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./stylesheets/index.css">
+  <link rel="stylesheet" href="./stylesheets/countdown.css">
+  <script type="text/javascript" src="./scripts.js"></script>
+  <script>
+    function autoRefresh() {
+        window.location = window.location.href;
+    }
+    setInterval('autoRefresh()', 20000);
+</script>
+  <title>Timer - 8 Hour Countdown</title>
+</head>
+
+<body>
+  <!-- <h1>Time Remaining:</h1> -->
+  <div id="countdown">
+    <div id="timer">#{timeLeft}</div>
+    <!-- <audio id="audio" src="https://onlineclock.net/audio/options/default.mp3"></audio> -->
+  </div>
+</body>
+</html>
